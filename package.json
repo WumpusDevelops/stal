@@ -1,0 +1,13 @@
+{
+  "name": "stal-button",
+  "version": "1.0.0",
+  "description": "A stal button :D",
+  "main": "stal.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node stal.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

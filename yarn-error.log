@@ -1,0 +1,43 @@
+Arguments: 
+  /home/wumpusdev/.nvm/versions/node/v12.18.2/bin/node /home/wumpusdev/.nvm/versions/node/v12.18.2/bin/yarn start
+
+PATH: 
+  /home/wumpusdev/.nvm/versions/node/v12.18.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/fionn/AppData/Local/Microsoft/WindowsApps
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/wumpusdev/dev/stal-button/package.json: Unexpected string in JSON at position 176
+      at JSON.parse (<anonymous>)
+      at /home/wumpusdev/.nvm/versions/node/v12.18.2/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/wumpusdev/.nvm/versions/node/v12.18.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/wumpusdev/.nvm/versions/node/v12.18.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "stal-button",
+    "version": "1.0.0",
+    "description": "A stal button :D",
+    "main": "stal.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node stal.js"
+    }
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
