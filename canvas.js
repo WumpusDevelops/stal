@@ -7,7 +7,7 @@ function setup() {
   createCanvas(1920, 1080);
   background(255, 0, 0);
   textSize(32);
-  let stal = "Click to start stal, click again to stop!";
+  let stal = "Click to start or to stop stal, please allow up to 5 seconds for the page to load";
 text(stal, 50, 50);
 }
 
@@ -17,13 +17,13 @@ function mousePressed() {
     song.stop();
     background(255, 0, 0);
     textSize(32);
-  let stal = "Click to start stal, click again to stop!";
+  let stal = "Click to start or to stop stal, please allow up to 5 seconds for the page to load";
 text(stal, 50, 50);
   } else {
     song.play();
     background(0, 255, 0);
     textSize(32);
-  let stal = "Click to start stal, click again to stop!";
+  let stal = "Click to start or to stop stal, please allow up to 5 seconds for the page to load";
 text(stal, 50, 50);
   }
 }
